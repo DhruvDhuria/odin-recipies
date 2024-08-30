@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "cookie";
+    src: url(./Cookie-Regular.ttf);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100vh;
+    width: 100vw;
+}
+
+#header {
+    display: inline-block;
+    background-color: #fd5b03;
+    height: 128px;
+    width: 100%;
+    margin-bottom: 64px;
+    text-align: center;
+    padding-top: 32px;
+    color: rgb(255, 245, 245);
+    font-family: 'cookie';
+    font-size: 64px;
+}
+
+#lists li {
+    background-color: white;
+    padding: 10px;
+    margin: 8px 16px;
+    list-style: none;
+    border-radius: 8px;
+    background-color: rgb(255, 157, 0);
+}
+#lists li a {
+    text-decoration: none;
+    color: black;
+}
